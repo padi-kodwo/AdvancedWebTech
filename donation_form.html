@@ -1,0 +1,89 @@
+<html>
+    
+<head>
+    <title>Donate</title>
+    <link rel="stylesheet" type="text/css" href="donation_styles.css" media="all" />
+</head>
+
+<body>
+    <br>
+    <h1 align="center" style="color: #ffffff;"><u><u><b>WeCare FOUNDATION DONATION</b></u></u></h1>
+    <br>
+    <div>
+        <h3 align="center">We accept anything you can give us.Thank you for your donation.</h3>
+        
+        <form action="donation.php" method="post">
+            <fieldset>
+                <LEGEND>Donator Details</LEGEND>
+                First_name*
+                <br>
+                <input type="text" name="first_name" size="60" autofocus required placeholder="Please Enter Your First Name" />
+                <br>
+                <br> Last name*
+                <br>
+                <input type="text" name="last_name" size="60" required placeholder="Please Enter Your Last Name" />
+                <br>
+                <br> Address Line_1*
+                <br>
+                <input type="text" name="address" size="60" required placeholder="Please Enter Your Primary Address" />
+                <br>
+                <br> Address Line_2
+                <br>
+                <input type="text" name="address2" size="60" />
+                <br>
+                <br>
+                <label>Country</label>
+                <br>
+                <SELECT name="country">
+                    <OPTION value="Ghana" selected>Ghana
+                    </OPTION>
+                    <OPTION value="Rest of the World">Rest of the world
+                    </OPTION>
+                </SELECT>
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Details</legend>
+                Postal Code
+                <br>
+                <input type="text" name="postal" size="60" />
+                <br>
+                <br> City*
+                <br>
+                <input type="text" name="city" size="60" required />
+                <br>
+                <br> Email Address
+                <br>
+                <input type="text" name="email" size="60" />
+                <br>
+                <br> Home Phone*
+                <br>
+                <input type="text" name="home" size="30" required placeholder="Enter Your Primary Phone Number" />
+                <br>
+                <br> Mobile Phone
+                <br>
+                <input type="text" name="mobile" size="30" />
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Details:</legend>
+                Account Number*
+                <br>
+                <input type="text" name="acnt_number" size="30" required placeholder="Enter Your Acount Number" />
+                <br>
+                <br> Contribution*
+                <br>
+                <input type="text" name="contribution" size="30" required placeholder="Enter Your Donation Amount" />
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" name="submit" value="Donate" />
+        </form><a href="http://localhost/advancedweb/wordpress/">Home</a>
+        when you are redirected to the home page , you have sucessfully submitted the above form
+    </div>
+</body>
+
+</html>

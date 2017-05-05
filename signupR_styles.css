@@ -1,0 +1,19 @@
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 880px;
+    padding: 20px;
+    border: 1px #252525;
+    border-radius: 10px;
+    background: #252525;
+    box-shadow: #252525 2px 2px 2px 2px;
+    color: white;
+}
+body {
+    background: url(background4.jpg);
+}
+#xant {
+    font-family: "Lucida Grande", ariel, Tahoma, Verdana, sans-serif;
+    font-size: 24px;
+    color: cyan;
+}

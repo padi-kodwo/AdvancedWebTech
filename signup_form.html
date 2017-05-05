@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Skilled Personel</title>
+    <link rel="stylesheet" type="text/css" href="signup_styles.css" media="all" />
+</head>
+
+<body>
+    <br>
+    <h1 align="center" style="color: #ffffff;"><b>WeCare FOUNDATION SIGN UP FORM</b></h1>
+    <br>
+    <div>
+        <h3 align="center">Trained Personel Form</h3>
+        <form action="signup_action.php" method="post">
+            <fieldset>
+                <LEGEND>Volunteer Information</LEGEND>
+                First_name*
+                <br>
+                <input type="text" name="first_name" size="60" required placeholder="Frist Name" autofocus />
+                <br>
+                <br> Last name*
+                <br>
+                <input type="text" name="last_name" size="60" required required placeholder="Last Name" />
+                <br>
+                <br> Address Line_1*
+                <br>
+                <input type="text" name="address" size="60" required required placeholder="Enter Your Primary Address" />
+                <br>
+                <br> Address Line_2
+                <br>
+                <input type="text" name="address2" size="60" />
+                <br>
+                <br>
+                <label>Country</label>
+                <br>
+                <SELECT name="country">
+                    <OPTION value="Ghana" selected>Ghana
+                    </OPTION>
+                    <OPTION value="Rest of the World">Rest of the world
+                    </OPTION>
+                </SELECT>
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                Postal Code
+                <br>
+                <input type="text" name="postal" size="50" />
+                <br>
+                <br> City*
+                <br>
+                <input type="text" name="city" size="50" required placeholder="Enter Your Current City" />
+                <br>
+                <br> Email Address*
+                <br>
+                <input type="text" name="email" size="50" required required placeholder="Email Address" />
+                <br>
+                <br> Home Phone*(Please add the area code)
+                <br>
+                <input type="text" name="home" size="30" required required placeholder="Enter Your Primary Phone Number" />
+                <br>
+                <br> Mobile Phone
+                <br>
+                <input type="text" name="mobile" size="30" />
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>What do you want to help with?</legend>
+                <label>Skill</label>
+                <br>
+                <SELECT name="skills">
+                    <OPTION value="Trained Medical Personel" selected>Trained Personel
+                    </OPTION>
+                </SELECT>
+                <br>
+                <br> Years of Experience*
+                <br>
+                <input type="text" name="years" required/>
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit" />
+        </form><a href="http://localhost/advancedweb/wordpress/">Home</a>
+        when your are redirected to the home page , you have sucessfully submitted the above form
+    </div>
+</body>
+
+</html>

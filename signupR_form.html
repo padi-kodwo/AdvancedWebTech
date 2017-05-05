@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Regular Sign up</title>
+    <link rel="stylesheet" type="text/css" href="signupR_styles.css" media="all" />
+</head>
+
+<body>
+    <br>
+    <h1 align="center" style="color: #000000;"><b>WeCare FOUNDATION SIGN UP FORM</b></h1>
+    <br>
+    <div>
+        <h3 align="center">Regular Personel Form</h3>
+        <br />
+        <form action="signupR_action.php" method="post">
+            <fieldset>
+                <LEGEND>Volunteer Information</LEGEND>
+                First_name*
+                <br>
+                <input type="text" name="first_name" size="60" required placeholder="First Name" autofocus />
+                <br>
+                <br> Last name*
+                <br>
+                <input type="text" name="last_name" size="60" required placeholder="Last Name" />
+                <br>
+                <br> Address Line_1*
+                <br>
+                <input type="text" name="address" size="60" required />
+                <br>
+                <br> Address Line_2
+                <br>
+                <input type="text" name="address2" size="60" />
+                <br>
+                <br>
+                <label>Country</label>
+                <br>
+                <SELECT name="country">
+                    <OPTION value="Ghana" selected>Ghana
+                    </OPTION>
+                    <OPTION value="Rest of the World">Rest of the world
+                    </OPTION>
+                </SELECT>
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                Postal Code
+                <br>
+                <input type="text" name="postal" size="60" />
+                <br>
+                <br> City*
+                <br>
+                <input type="text" name="city" size="50" required />
+                <br>
+                <br> Email Address
+                <br>
+                <input type="text" name="email" size="60" required />
+                <br>
+                <br> Home Phone*
+                <br>
+                <input type="text" name="home" size="30" required />
+                <br>
+                <br> Mobile Phone
+                <br>
+                <input type="text" name="mobile" size="30" />
+                <br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>What do you want to help with?</legend>
+                <label>Skill</label>
+                <br>
+                <SELECT name="skills">
+                    <OPTION value="Untrained Personel" selected>Untrained Personel
+                    </OPTION>
+                </SELECT>
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit" />
+        </form><a href="http://localhost/advancedweb/wordpress/">Home</a>
+        when your are redirected to the home page , you have sucessfully submitted the above form
+    </div>
+</body>
+
+</html>
