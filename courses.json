@@ -1,0 +1,24 @@
+//JSON JAVA SCRIPT OBJECT NOTATION
+var allCourses =[
+	{"code" : "MATH121",
+	"name" : "Algebra and Trignometry",
+	"lecturer" : "Fred",
+	"credits" : "3",
+	"Prerequisits" : "None",
+	"level" : "100",
+	"core" : "Yes"},
+	{"code" : "STAT101",
+	"name" : "Introduction to Statistics",
+	"lecturer" : "Dr. Aseidu",
+	"credits" : "3",
+	"Prerequisits" : "None",
+	"level" : "100",
+	"core" : "Yes"},
+	{"code" : "CSCD101",
+	"name" : "Introduction to Computer Science",
+	"lecturer" : "Mr. Ecklu",
+	"credits" : "3",
+	"Prerequisits" : "None",
+	"level" : "100",
+	"core" : "Yes"}
+]
